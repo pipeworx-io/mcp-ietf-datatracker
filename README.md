@@ -1,19 +1,21 @@
-# mcp-ietf-datatracker
+# @pipeworx/ietf-datatracker
 
-IETF Datatracker MCP.
+[IETF Datatracker](https://datatracker.ietf.org) MCP — RFC + Internet-Draft metadata + working groups + people. Keyless.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 673+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1394+ live data sources.
 
 ## Tools
 
-| Tool | Description |
-|------|-------------|
-| `rfc` | RFC by number. |
-| `document` | Document by name (e.g. "rfc9000", "draft-ietf-quic-transport"). |
-| `documents_search` | Search documents. |
-| `wg` | Working group by acronym. |
-| `wgs_search` | List working groups. |
-| `person` | Person by datatracker id. |
+- `rfc(number)` — RFC by number
+- `document(name)` — document by name (e.g. "draft-ietf-quic-transport")
+- `documents_search(states?, type?, name__contains?, limit?, offset?)` — search documents
+- `wg(acronym)` — working group by acronym
+- `wgs_search(limit?, offset?)` — list working groups
+- `person(id)` — person by id
+
+## Data source
+
+`https://datatracker.ietf.org/api/v1/` (Tastypie REST).
 
 ## Quick Start
 
@@ -29,7 +31,7 @@ Add to your MCP client (Claude Desktop, Cursor, Windsurf, etc.):
 }
 ```
 
-Or connect to the full Pipeworx gateway for access to all 673+ data sources:
+Or connect to the full Pipeworx gateway for access to all 1394+ data sources:
 
 ```json
 {
@@ -53,7 +55,7 @@ The gateway picks the right tool and fills the arguments automatically.
 
 ## More
 
-- [All tools and guides](https://github.com/pipeworx-io/examples)
+- [Docs and guides](https://pipeworx.io/docs)
 - [pipeworx.io](https://pipeworx.io)
 
 ## License
