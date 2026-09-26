@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ietf-datatracker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "IETF Datatracker MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-96c3a884828317dafc8c7a8e382d93b8a4a6f753e40cccfbedc1ace472ef349f",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-3b47482610fc0cf7ed9da49e233a9d91e7a1b84f82e08c8d0321bf8f7d031dac",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
