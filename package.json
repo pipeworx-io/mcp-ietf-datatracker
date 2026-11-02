@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ietf-datatracker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "IETF Datatracker MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ietf-datatracker",
     "gatewaySlug": "ietf-datatracker",
-    "sourceHash": "v1-3329a3a4f6e4478e75539c7c28b9157aa1396ff8c50903956824c5272aeee1d4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-77cff9dba9eb67d2e19216a0e3919c7989412cc834151363f4db997c97fb5354",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
